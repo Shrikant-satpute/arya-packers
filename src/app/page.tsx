@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import ImageSlider from "@/components/ImageSlider";
 import Services from "@/components/Services";
 import WhyUs from "@/components/WhyUs";
 import Areas from "@/components/Areas";
@@ -15,6 +16,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <ImageSlider />
         <Services />
         <WhyUs />
         <Areas />
