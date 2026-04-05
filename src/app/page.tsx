@@ -9,10 +9,11 @@ import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import SplashScreen from "@/components/SplashScreen";
 
 export default function Home() {
   return (
-    <>
+    <SplashScreen>
       <Navbar />
       <main>
         <Hero />
@@ -26,6 +27,6 @@ export default function Home() {
       </main>
       <Footer />
       <WhatsAppButton />
-    </>
+    </SplashScreen>
   );
 }

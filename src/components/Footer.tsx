@@ -45,7 +45,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/917083558276"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/10 hover:bg-[#25d366] rounded-lg flex items-center justify-center transition-colors"
@@ -56,14 +56,14 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="tel:+919876543210"
+                href="tel:+917083558276"
                 className="w-10 h-10 bg-white/10 hover:bg-[#1e3a5f] rounded-lg flex items-center justify-center transition-colors"
                 aria-label="Call us"
               >
                 <Phone className="w-5 h-5" />
               </a>
               <a
-                href="mailto:info@aryapackers.com"
+                href="mailto:aryapackersandmovers21@gmail.com"
                 className="w-10 h-10 bg-white/10 hover:bg-[#1e3a5f] rounded-lg flex items-center justify-center transition-colors"
                 aria-label="Email us"
               >
@@ -120,14 +120,14 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-[#f59e0b] flex-shrink-0" />
-                <a href="tel:+919876543210" className="text-gray-400 hover:text-white text-sm transition-colors">
-                  +91 98765 43210
+                <a href="tel:+917083558276" className="text-gray-400 hover:text-white text-sm transition-colors">
+                  +91 70835 58276
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-[#f59e0b] flex-shrink-0" />
-                <a href="mailto:info@aryapackers.com" className="text-gray-400 hover:text-white text-sm transition-colors">
-                  info@aryapackers.com
+                <a href="mailto:aryapackersandmovers21@gmail.com" className="text-gray-400 hover:text-white text-sm transition-colors">
+                  aryapackersandmovers21@gmail.com
                 </a>
               </li>
             </ul>
@@ -143,7 +143,7 @@ export default function Footer() {
               &copy; {new Date().getFullYear()} Arya Packers and Movers. All rights reserved.
             </p>
             <p className="text-gray-500 text-sm">
-              Serving Kamothe, Panvel, Kharghar, Taloja & all of Navi Mumbai
+              Serving Kamothe, Panvel, Kharghar, Taloja, all Navi Mumbai & All India
             </p>
           </div>
         </div>

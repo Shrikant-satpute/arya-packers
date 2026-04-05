@@ -7,40 +7,34 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const slides = [
   {
-    src: "https://images.unsplash.com/photo-1600518464441-9154a4dea21b?w=1200&q=80",
-    alt: "Professional packing service with bubble wrap and boxes",
+    src: "/images/slide-1.jpg",
+    alt: "Arya Packers and Movers - Professional packing service",
     title: "Professional Packing",
-    subtitle: "Premium materials for maximum safety",
+    subtitle: "Premium materials for maximum safety of your belongings",
   },
   {
-    src: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=1200&q=80",
-    alt: "Modern home interior ready for relocation",
-    title: "Home Relocation",
-    subtitle: "Complete household shifting with care",
+    src: "/images/slide-2.jpg",
+    alt: "Arya Packers and Movers - Safe household shifting",
+    title: "Household Shifting",
+    subtitle: "Complete home relocation handled with care",
   },
   {
-    src: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1200&q=80",
-    alt: "Moving boxes stacked and organized",
-    title: "Organized Moving",
-    subtitle: "Every item labeled and tracked",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&q=80",
-    alt: "Delivery truck for safe transportation",
+    src: "/images/slide-3.jpg",
+    alt: "Arya Packers and Movers - Loading and transportation",
     title: "Safe Transportation",
-    subtitle: "GPS-tracked door-to-door delivery",
+    subtitle: "Careful loading and GPS-tracked delivery across India",
   },
   {
-    src: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1200&q=80",
-    alt: "Office space ready for corporate relocation",
-    title: "Office Relocation",
-    subtitle: "Minimal downtime, maximum efficiency",
+    src: "/images/slide-4.jpg",
+    alt: "Arya Packers and Movers - Expert team at work",
+    title: "Expert Team",
+    subtitle: "Trained professionals for damage-free moving",
   },
   {
-    src: "https://images.unsplash.com/photo-1607400201889-565b1ee75f8e?w=1200&q=80",
-    alt: "Carefully packed fragile items with protection",
-    title: "Fragile Item Care",
-    subtitle: "Special handling for delicate belongings",
+    src: "/images/slide-5.png",
+    alt: "Arya Packers and Movers - Business poster and services overview",
+    title: "Arya Packers & Movers",
+    subtitle: "Your trusted partner for all relocation needs across India",
   },
 ];
 
@@ -86,7 +80,7 @@ export default function ImageSlider() {
             See Us in Action
           </h2>
           <p className="mt-4 text-gray-600 text-lg max-w-2xl mx-auto">
-            From careful packing to safe delivery — glimpses of how we handle every move with precision.
+            From careful packing to safe delivery — real glimpses of how we handle every move with precision.
           </p>
         </motion.div>
 
@@ -116,7 +110,7 @@ export default function ImageSlider() {
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 1200px"
-                  priority={i === 0}
+                  priority={i <= 1}
                 />
                 {/* Gradient overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />

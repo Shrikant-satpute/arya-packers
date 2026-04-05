@@ -46,6 +46,12 @@ const areas = [
     tag: "IT Hub",
     description: "Corporate and household relocation for Airoli and MIDC areas.",
   },
+  {
+    name: "All India",
+    tag: "Pan India Service",
+    description: "Long-distance relocation across all major cities in India. Safe interstate moves.",
+    highlighted: true,
+  },
 ];
 
 function AreaCard({
@@ -72,7 +78,7 @@ function AreaCard({
     >
       {area.highlighted && (
         <div className="absolute -top-2 -right-2 bg-[#f59e0b] text-white text-[10px] font-bold px-2 py-1 rounded-full">
-          HQ
+          {area.name === "Kamothe" ? "HQ" : "NEW"}
         </div>
       )}
       <div className="flex items-start gap-3">
@@ -125,11 +131,11 @@ export default function Areas() {
             Service Areas
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1e3a5f]">
-            Serving All of Navi Mumbai
+            Serving All of Navi Mumbai & All India
           </h2>
           <p className="mt-4 text-gray-600 text-lg max-w-2xl mx-auto">
             Based in Kamothe, we provide reliable packing and moving services across
-            all major locations in Navi Mumbai.
+            all major locations in Navi Mumbai and pan-India.
           </p>
         </motion.div>
 
@@ -152,8 +158,8 @@ export default function Areas() {
                 Don&apos;t see your area listed?
               </h3>
               <p className="text-gray-600">
-                We serve all locations across Navi Mumbai and can arrange moves to any destination in
-                Maharashtra.
+                We serve all locations across Navi Mumbai and provide pan-India relocation services
+                to any city in India. No distance is too far for us!
               </p>
             </div>
             <a

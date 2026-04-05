@@ -92,7 +92,7 @@ export default function Hero() {
               className="flex flex-col sm:flex-row gap-4 mt-10"
             >
               <a
-                href="tel:+919876543210"
+                href="tel:+917083558276"
                 className="group flex items-center justify-center gap-2 bg-[#f59e0b] hover:bg-[#d97706] text-white px-8 py-4 rounded-full text-lg font-semibold transition-all shadow-xl hover:shadow-2xl hover:scale-105"
               >
                 <Phone className="w-5 h-5" />
@@ -100,7 +100,7 @@ export default function Hero() {
                 <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
               </a>
               <a
-                href="https://wa.me/919876543210?text=Hi%20Arya%20Packers%2C%20I%20need%20a%20quote%20for%20shifting"
+                href="https://wa.me/917083558276?text=Hi%20Arya%20Packers%2C%20I%20need%20a%20quote%20for%20shifting"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white border border-white/30 px-8 py-4 rounded-full text-lg font-medium transition-all"

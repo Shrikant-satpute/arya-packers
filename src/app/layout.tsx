@@ -82,7 +82,7 @@ const jsonLd = {
   description:
     "Trusted and professional packing and moving services in Kamothe, Navi Mumbai. Household shifting, office relocation, and transportation.",
   url: "https://arya-packers.vercel.app",
-  telephone: "+91-XXXXXXXXXX",
+  telephone: "+91-7083558276",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Kamothe",
@@ -102,6 +102,7 @@ const jsonLd = {
     { "@type": "City", name: "Kharghar" },
     { "@type": "City", name: "Taloja" },
     { "@type": "City", name: "Navi Mumbai" },
+    { "@type": "Country", name: "India" },
   ],
   serviceType: [
     "Household Shifting",

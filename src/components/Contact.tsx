@@ -19,14 +19,14 @@ export default function Contact() {
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 98765 43210",
-      href: "tel:+919876543210",
+      value: "+91 70835 58276",
+      href: "tel:+917083558276",
     },
     {
       icon: Mail,
       label: "Email",
-      value: "info@aryapackers.com",
-      href: "mailto:info@aryapackers.com",
+      value: "aryapackersandmovers21@gmail.com",
+      href: "mailto:aryapackersandmovers21@gmail.com",
     },
     {
       icon: MapPin,
