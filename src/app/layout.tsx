@@ -14,7 +14,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://arya-packers.vercel.app"),
+  metadataBase: new URL("https://aryapackersandmover.in"),
   title: {
     default: "Arya Packers and Movers | Best Packers & Movers in Kamothe, Navi Mumbai",
     template: "%s | Arya Packers and Movers",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://arya-packers.vercel.app",
+    url: "https://aryapackersandmover.in",
     siteName: "Arya Packers and Movers",
     title: "Arya Packers and Movers | Best Packers & Movers in Kamothe, Navi Mumbai",
     description:
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://arya-packers.vercel.app",
+    canonical: "https://aryapackersandmover.in",
   },
 };
 
@@ -81,7 +81,7 @@ const jsonLd = {
   name: "Arya Packers and Movers",
   description:
     "Trusted and professional packing and moving services in Kamothe, Navi Mumbai. Household shifting, office relocation, and transportation.",
-  url: "https://arya-packers.vercel.app",
+  url: "https://aryapackersandmover.in",
   telephone: "+91-7083558276",
   address: {
     "@type": "PostalAddress",
